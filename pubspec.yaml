@@ -1,0 +1,16 @@
+name: coduno
+description: Frontend for www.cod.uno
+authors:
+  - Lorenz Leutgeb <lorenz.leutgeb@cod.uno>
+transformers:
+  - $dart2js:
+      minify: true
+      checked: true
+      verbose: true
+#     analyzeAll: true
+#     enableDiagnosticColors: true
+      csp: true
+#     dumpInfo: true
+#     $include: "web/hello.dart"
+dependencies:
+  browser: ">=0.10.0 <0.11.0"
