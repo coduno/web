@@ -9,3 +9,7 @@ packages/
 *.js_
 *.js.deps
 *.js.map
+
+# Images
+*.png
+*.jpg
