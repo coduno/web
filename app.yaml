@@ -1,0 +1,35 @@
+module: default
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+  - url: /assets
+    static_dir: assets
+    secure: always
+    expiration: 4d
+    http_headers:
+      strict-transport-security: max-age=15552000
+
+  - url: /register
+    static_files: static/register/index.html
+    upload: static/register/index.html
+    expiration: 7d
+    http_headers:
+      strict-transport-security: max-age=15552000
+
+  - url: /
+    static_files: static/index.html
+    upload: static/index.html
+    secure: always
+    expiration: 4d
+    http_headers:
+      strict-transport-security: max-age=15552000
+
+  - url: /
+    static_dir: static
+    secure: always
+    expiration: 4d
+    http_headers:
+      strict-transport-security: max-age=15552000
+

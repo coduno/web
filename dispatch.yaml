@@ -1,0 +1,8 @@
+application: coduno
+dispatch:
+  - url: "platform.cod.uno/*"
+    module: platform
+  - url: "app.cod.uno/*"
+    module: app
+  - url: "www.cod.uno/*"
+    module: default
