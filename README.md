@@ -1,3 +1,3 @@
-# Coduno Web Interface
+# Coduno Landing Page
 
-This is Coduno's web based interface.
+This is Coduno's landing page, served from [cod.uno](https://cod.uno).
