@@ -10,4 +10,5 @@ script: true
 deploy:
   provider: gae
   project: coduno
+  verbosity: debug
   skip_cleanup: true
